@@ -1,0 +1,228 @@
+0:100  0:100  MemLog inited, TSC freq: 4008559390
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 8.6.2019,  14:31:13 (GMT)
+0:100  0:000  Starting Clover revision: 4920 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -nb -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -D HAVE_LEGACY_EMURUNTIMEDXE -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.13.6 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,9C3184DB-348A-4C8B-9AF9-27D5427110EE,0x28,0x64000) @773F1398
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2667MHz
+0:100  0:000  SmbiosTable.Type17->Size = 16384MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 0813
+0:100  0:000  SmbiosTable.Type17->SerialNumber = D4C16F75
+0:100  0:000  SmbiosTable.Type17->PartNumber = TYA4U2666D19161C    
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'To Be Filled By O.E.M.' with board 'Z370M-ITX_ac'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=906EB
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i3-8350K CPU @ 4.00GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               40004
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 334
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24003349
+0:100  0:000  MSR 0xE2 before patch 1E000000
+0:100  0:000  MSR 0xCE              00080838_F1012800
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 88 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 40.0/8
+0:100  0:000  Turbo: 40/40/40/40
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3500 MHz
+0:100  0:000  TSC: 3500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 3E1F class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 3E91 class=030000
+0:100  0:000   - GFX: Model=Intel UHD Graphics 630 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 A2AF class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 A2B1 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 A2BA class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 A282 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 A290 class=060400
+0:100  0:000  PCI (00|00:1C.05) : 8086 A295 class=060400
+0:100  0:000  PCI (00|02:00.00) : 8086 1539 class=020000
+0:100  0:000   - LAN: 0 Vendor=Intel
+0:100  0:000  PCI (00|00:1C.06) : 8086 A296 class=060400
+0:100  0:000  PCI (00|03:00.00) : 14E4 4353 class=028000
+0:100  0:000   - WIFI: Vendor=Broadcom
+0:100  0:000  PCI (00|00:1D.00) : 8086 A298 class=060400
+0:100  0:000  PCI (00|04:00.00) : 8086 F1A6 class=010802
+0:100  0:000  PCI (00|00:1F.00) : 8086 A2C9 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 A2A1 class=058000
+0:101  0:000  PCI (00|00:1F.03) : 8086 A2F0 class=040300
+0:101  0:000  PCI (00|00:1F.04) : 8086 A2A3 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : 8086 15B8 class=020000
+0:101  0:000   - LAN: 1 Vendor=Intel
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 0 bytes
+0:102  0:001  EFI\CLOVER\config.plist loaded: Success
+0:102  0:000  === [ GetListOfThemes ] ===================================
+0:102  0:000  - [00]: embedded
+0:103  0:000  - [00]: random
+0:103  0:000  === [ Found config plists ] ===============================
+0:103  0:000  - config.plist
+0:103  0:000  === [ GetEarlyUserSettings ] ==============================
+0:103  0:000  timeout set to 3
+0:103  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:103  0:000  Hiding entries with string CLOVER
+0:103  0:000  Hiding entries with string Recovery HD
+0:103  0:000  Hiding entries with string Recovery
+0:103  0:000  Hiding entries with string Preboot
+0:103  0:000  === [ LoadDrivers ] =======================================
+0:103  0:000  Loading ApfsDriverLoader-64.efi  status=Success
+0:104  0:000   - driver needs connecting
+0:104  0:000  Loading AptioMemoryFix-64.efi  status=Success
+0:105  0:000  Loading DataHubDxe-64.efi  status=Success
+0:107  0:001  Loading Fat-64.efi  status=Success
+0:107  0:000   - driver needs connecting
+0:107  0:000  Loading FSInject-64.efi  status=Success
+0:108  0:000  Loading NvmExpressDxe-64.efi  status=Success
+0:109  0:000   - driver needs connecting
+0:109  0:000  Loading VBoxHfs-64.efi  status=Success
+0:109  0:000   - driver needs connecting
+0:109  0:000  Loading AppleImageLoader.efi  status=Success
+0:110  0:000  4 drivers needs connecting ...
+0:110  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:110  0:000  APFS driver loaded
+0:110  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:497  0:387  === [ InitScreen ] ========================================
+0:497  0:000  Console modes reported: 4, available modes:
+0:497  0:000   - [01]: 80x25 (current mode)
+0:497  0:000   - [02]: 128x40
+0:497  0:000   - [03]: 100x31
+0:497  0:000   - [04]: 480x113
+0:497  0:000  SetScreenResolution: 1920x1080 - not found!
+0:497  0:000  SetMaxResolution: found best mode 4: 3840x2160
+0:497  0:000   - already set
+0:497  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,9C3184DB-348A-4C8B-9AF9-27D5427110EE,0x28,0x64000)
+0:498  0:000  Using embedded font: Success
+0:498  0:000  === [ GetMacAddress ] =====================================
+0:498  0:000  === [ ScanSPD ] ===========================================
+0:499  0:000  Scanning SMBus [8086:A2A3], mmio: 0xDF34A004, ioport: 0xF040, hostc: 0x1
+0:517  0:018  Slot: 2 Type 26 16384MB 2666MHz Vendor=NoName PartNo=TYA4U2666D19161C SerialNo=0D040C01060F0705
+0:518  0:000  === [ GetAcpiTablesList ] =================================
+0:518  0:000  Get Acpi Tables List from RSDT:
+0:518  0:000   - [00]: FACP  A M I  len=132
+0:518  0:000   - [01]: APIC  A M I  len=132
+0:518  0:000   - [02]: FPDT  A M I  len=68
+0:518  0:000   - [03]: FIDT  A M I len=156
+0:518  0:000   - [04]: MCFG  A M I  len=60
+0:518  0:000   - [05]: SSDT  SataTabl len=931
+0:518  0:000   - [06]: AAFT  OEMAAFT  len=477
+0:518  0:000   - [07]: SSDT  SaSsdt  len=12645
+0:518  0:000   - [08]: HPET  KBL len=56
+0:518  0:000   - [09]: SSDT  xh_kbl_s len=2604
+0:518  0:000   - [10]: UEFI  A M I  len=72
+0:518  0:000   - [11]: SSDT  CpuSsdt len=6062
+0:518  0:000   - [12]: LPIT  KBL len=148
+0:518  0:000   - [13]: SSDT  HdaDsp len=321
+0:518  0:000   - [14]: SSDT  TbtTypeC len=1303
+0:518  0:000   - [15]: SSDT  Wwan len=745
+0:518  0:000   - [16]: DBGP   len=52
+0:518  0:000   - [17]: DBG2   len=84
+0:518  0:000   - [18]: BGRT  A M I  len=56
+0:518  0:000   - [19]: WSMT  A M I  len=40
+0:518  0:000  Calibrated TSC Frequency = 4008559390 = 4008MHz
+0:519  0:000  === [ GetUserSettings ] ===================================
+0:519  0:000  Add 2 devices:
+0:519  0:000  USB FixOwnership: yes
+0:519  0:000   - final DSDT Fix mask=00000000
+0:519  0:000  PatchesDSDT: 2 requested
+0:519  0:000   - [00]: (Rename HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:519  0:000   - [01]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:519  0:000  Using ProductName from config: Macmini8,1
+0:519  0:000  Found same BiosVersion in clover and config
+0:519  0:000  BiosVersion: MM81.88Z.F000.B00.1809171422
+0:519  0:000  BiosReleaseDate: 09/17/2018
+0:519  0:000  Using EfiVersion from config: 220.250.330.0.0
+0:519  0:000  Using FirmwareFeatures from config: 0xFC0FE137
+0:519  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+0:519  0:000  Board-ID set from config as Mac-7BA5B2DFE22DDD8C
+0:519  0:000  BoardType: 0xA
+0:519  0:000  ChassisType: 0x9
+0:519  0:000  Converted CustomUUID CA49F412-4B47-5F90-97A7-833E2BA86A63
+0:519  0:000  === [ Found DSDT tables ] =================================
+0:572  0:052  === [ ScanVolumes ] =======================================
+0:572  0:000  Found 7 volumes with blockIO
+0:572  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+0:572  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,9C3184DB-348A-4C8B-9AF9-27D5427110EE,0x28,0x64000)
+0:572  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:572  0:000          This is SelfVolume !!
+0:572  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)
+0:572  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:572  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F4AEF4624DCF6D489F1449B4525B9EA5)
+0:572  0:000          hiding this volume
+0:572  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A1920AD75052A0428C14E29C749C949A)
+0:572  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AD5AAA9D8B3EB049A599F9D77426FCB5)
+0:572  0:000          hiding this volume
+0:572  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A8F2896E6520C746B29EF8AC95162F99)
+0:572  0:000  No AudioIoProtocols, status=Not Found
+0:572  0:000  === [ InitTheme ] =========================================
+0:572  0:000  use daylight theme
+0:572  0:000   using embedded theme
+0:572  0:000  got embedded sound
+0:572  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+0:572  0:000  output to channel 0 with volume 70, len=25600
+0:572  0:000   sound channels=2 bits=16 freq=8000
+0:572  0:000  sound converted to 48kHz
+0:572  0:000  not found AudioIo to play
+0:572  0:000  sound play end with status=72639554
+0:573  0:000  Using embedded font: Success
+0:573  0:000  theme inited
+0:573  0:000  Chosen embedded theme
+0:573  0:000  after NVRAM boot-args=
+0:573  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:573  0:000  no AppleSMC protocol
+0:580  0:006  === [ ScanLoader ] ========================================
+0:580  0:000  - [01]: 'EFI'
+0:581  0:001          AddLoaderEntry for Volume Name=EFI
+0:581  0:000          skipped because entry is hidden
+0:581  0:000  - [03]: 'Preboot', hidden
+0:581  0:000  - [04]: 'Apple'
+0:653  0:071          AddLoaderEntry for Volume Name=Apple
+0:670  0:017      Check if volume Is Hibernated:
+0:670  0:000      Check sleep image 'by signature':
+0:691  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+0:691  0:000      using default sleep image name = \private\var\vm\sleepimage
+0:701  0:009      sleepimage not found -> Not Found
+0:701  0:000      hibernated: no - sign
+0:734  0:032  - [05]: 'Recovery', hidden
+0:734  0:000  - [06]: 'VM'
+0:734  0:000  Scanning legacy ...
+0:734  0:000  === [ AddCustomTool ] =====================================
+0:734  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:734  0:000  Checking EFI partition Volume 1 for Clover
+0:734  0:000   Found Clover
+0:735  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+0:735  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A1920AD75052A0428C14E29C749C949A)
+0:735  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A1920AD75052A0428C14E29C749C949A)'
+0:735  0:000    - LoaderPath: '<null string>'
+0:735  0:000    - Guid = A0BB8472-365C-4385-A392-C6893BB845FF
+0:735  0:000  === [ FindStartupDiskVolume ] =============================
+0:735  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,A0BB8472-365C-4385-A392-C6893BB845FF,0x64028,0x1DC8F260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A1920AD75052A0428C14E29C749C949A)
+0:735  0:000     - searching for that partition
+0:735  0:000      - found entry 0. 'Boot macOS from Apple', Volume 'Apple'
+0:735  0:000  Boot redirected to Entry 0. 'Boot macOS from Apple'
+0:735  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+0:758  0:022  GUI ready
