@@ -271,9 +271,8 @@
 		<key>Hide</key>
 		<array>
 			<string>CLOVER</string>
-			<string>Recovery HD</string>
-			<string>Recovery</string>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>
